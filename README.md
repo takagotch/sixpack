@@ -2,7 +2,14 @@
 ---
 https://github.com/sixpack/sixpack
 
-```
+```js
+require 'sixpack'
+
+session = Sixpack::Session.new
+
+session.participate("test", ["alt-1", "alt-2"])
+
+session.convert("test")
 ```
 
 ```
